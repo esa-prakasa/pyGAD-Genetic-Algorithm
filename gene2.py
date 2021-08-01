@@ -14,8 +14,6 @@ What are the best values for the 6 weights (w1 to w6)? We are going to use the g
 function_inputs = [8,-10, 7, 9, -9, 6] # Function inputs.
 desired_output = 73 # Function output.
 
-
-
 def fitness_func(solution, solution_idx):
     # Calculating the fitness value of each solution in the current population.
     # The fitness function calulates the sum of products between each input and its corresponding weight.
